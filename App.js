@@ -25,7 +25,7 @@ export default function App() {
           }}
         />
         <TextInput
-          style={{ width: 240, borderColor: 'gray', borderWidth: 1, margin: 15, height: 40 }}
+          style={{ width: 240, borderColor: 'gray', borderWidth: 1, margin: 15, height: 40, backgroundColor: 'white' }}
           onChangeText={(text) => setText(text)}
           value={text}
         />
